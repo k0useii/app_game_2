@@ -1,0 +1,27 @@
+name: app_game_2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  pretty_dio_logger: ^1.4.0
+  shared_preferences: ^2.3.2
+  get: ^4.6.6
+  image_picker: ^0.8.4+4
+  image_gallery_saver: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
